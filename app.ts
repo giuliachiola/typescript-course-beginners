@@ -1,16 +1,15 @@
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-    const result = n1 + n2
-    if (showResult) {
-        console.log(phrase + result)
-    } else {
-        return result
-    }
+let userInput: unknown;
+let userName: string;
+
+if (typeof userInput === 'string') {
+  userName = userInput; // OK
 }
 
-const number1 = 5
-const number2 = 2.8
-const printResult = true
-const resultPhrase = 'The result is... '
+// type `never`
 
-const result = add(number1, number2, printResult, resultPhrase)
-console.log(result)
+function generateError(message: string, code: number) {
+  throw { message: message, errorCode: code }
+  // this function will not return anything
+}
+
+generateError('An error occurred', 500);
