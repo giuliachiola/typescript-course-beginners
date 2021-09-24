@@ -1,33 +1,27 @@
 # TypeScript course for beginners 2021
 
-???
+TypeScript basic tutorial
 
-| \                | \                          |
-|------------------|----------------------------|
-| Deploy status    | /                          |
-| Deploy preview   | /                          |
-| Project typology | Step by step from tutorial |
+| \                | \                                                                                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Deploy status    | /                                                                                                                                      |
+| Deploy preview   | /                                                                                                                                      |
+| Project typology | 📒 Step by step from tutorial [TypeScript Course for Beginners 2021](https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind) |
 
+(preview not available)
 
-![project preview](docs/project-preview.png)
+<!-- ![project preview](docs/project-preview.png) -->
 
 ## 🔥 Tech stack
 
-| Purpose               | Technology   |
-|:----------------------|:-------------|
-| Templating            | .            |
-| Styling               | SCSS + BEMIT |
-| Documentation         | Markdown     |
-| Static Site Generator | .            |
+| Purpose    | Technology |
+| :--------- | :--------- |
+| Templating | TS         |
 
 ## 🌊 Run development mode
 
 ```shell
-# install dependencies
-npm i
-
-# serve with hot reload at localhost:3000
-npm run start
+tsc app.ts
 ```
 
 ## 🧳 Build setup
@@ -36,6 +30,6 @@ Not available
 
 ## 🌿 Branches
 
-| Branch name | Use          |
-|:------------|:-------------|
-| `main`      | production   |
+| Branch name | Use        |
+| :---------- | :--------- |
+| `main`      | production |
