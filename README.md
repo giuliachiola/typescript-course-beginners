@@ -6,7 +6,8 @@ TypeScript basic tutorial
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | Deploy status    | /                                                                                                                                      |
 | Deploy preview   | /                                                                                                                                      |
-| Project typology | 📒 Step by step from tutorial [TypeScript Course for Beginners 2021](https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind) |
+| Project typology | 📒 Step by step from tutorial [TypeScript Course for Beginners 2021 - 
+Academind](https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind) |
 
 (preview not available)
 
